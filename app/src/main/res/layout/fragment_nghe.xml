@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kt_nghe"
+    tools:context="com.nvh.hoannguyen.hoctienganh.hoctap.NgheFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#f50808"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:text="KIỂM TRA NGHE" />
+
+    <ImageButton
+        android:id="@+id/imbtnlop1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="77dp"
+        app:srcCompat="@drawable/nutlop1" />
+
+    <ImageButton
+        android:id="@+id/imbtnlop2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/nutlop2"
+        android:layout_below="@+id/imbtnlop1"
+        android:layout_alignLeft="@+id/imbtnlop1"
+        android:layout_alignStart="@+id/imbtnlop1" />
+
+    <ImageButton
+        android:id="@+id/imbtnlop3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/nutlop3"
+        android:layout_below="@+id/imbtnlop2"
+        android:layout_alignLeft="@+id/imbtnlop2"
+        android:layout_alignStart="@+id/imbtnlop2" />
+
+    <ImageButton
+        android:id="@+id/imbtnlop4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/nutlop4"
+        android:layout_below="@+id/imbtnlop3"
+        android:layout_alignLeft="@+id/imbtnlop3"
+        android:layout_alignStart="@+id/imbtnlop3" />
+
+    <ImageButton
+        android:id="@+id/imbtnlop5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imbtnlop4"
+        android:layout_alignStart="@+id/imbtnlop4"
+        android:layout_below="@+id/imbtnlop4"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/nutlop5" />
+</RelativeLayout>

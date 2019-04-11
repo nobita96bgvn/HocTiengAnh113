@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nvh.hoannguyen.hoctienganh"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission  android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="28.0.0" />
+
+    <application
+
+        android:usesCleartextTraffic="true"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="com.nvh.hoannguyen.hoctienganh.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <!--<activity android:name="com.nvh.hoannguyen.hoctienganh.MainActivity" />-->
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.slide.ScreenSlideActivity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.slide.TestDoneActivity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Hoctuvunglop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop2.Hoctuvunglop2Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop3.Hoctuvunglop3Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop4.Hoctuvunglop4Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop5.Hoctuvunglop5Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Hocvideolop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Luyennghelop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.chayvideolop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baituvung1lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baihoctuvung2lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop2.baihoctuvung1lop2" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop3.baihoctuvung1lop3" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop4.baihoctuvung1lop4" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop5.baihoctuvung1lop5" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau1De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau2De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.KetquaDe1Lop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau3De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau4De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau5De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau6De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau7De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau8De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau9De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau10De1KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau1De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau2De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau3De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau4De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau5De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau6De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau7De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau8De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau9De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau10De2KiemtravietLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.KetquaDe2Lop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau1KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau2KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau3KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau4KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau5KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau6KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau7KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau8KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau9KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau10KiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.KetquaKiemtrangheLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau1KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau2KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau3KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau4KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau5KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau6KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau7KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau8KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau9KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.Cau10KiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.KetquaKiemtratonghopLop1Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baihoctuvung3lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baihoctuvung4lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baihoctuvung5lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baihoctuvung6lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baihoctuvung7lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop1.baihoctuvung8lop1" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop2.Luyennghelop2Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop3.Luyennghelop3Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop4.Luyennghelop4Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop5.Luyennghelop5Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop2.Hocvideolop2Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop3.Hocvideolop3Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop4.Hocvideolop4Activity" />
+
+        <activity android:name="com.nvh.hoannguyen.hoctienganh.Lop5.Hocvideolop5Activity" />
+
+    </application>
+
+</manifest>

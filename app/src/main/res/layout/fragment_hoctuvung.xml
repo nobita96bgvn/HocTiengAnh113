@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_voca3"
+    tools:context="com.nvh.hoannguyen.hoctienganh.hoctap.HoctuvungFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#00a6ff"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:text="CHỌN LỚP HỌC"
+        android:background="@drawable/duongvien_goctron"/>
+
+    <Button
+
+        android:id="@+id/btntuvunglop1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text="LỚP 1"
+        android:background="@drawable/duongvien_goctron"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:drawableBottom="@drawable/duongvien_goctron"
+        android:drawableEnd="@drawable/duongvien_goctron"
+        />
+
+    <Button
+        android:id="@+id/btntuvunglop2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/btntuvunglop1"
+        android:layout_alignRight="@+id/btntuvunglop1"
+        android:layout_below="@+id/btntuvunglop1"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/duongvien_goctron"
+        android:text="LỚP 2" />
+
+    <Button
+        android:id="@+id/btntuvunglop3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btntuvunglop2"
+        android:layout_alignStart="@+id/btntuvunglop2"
+        android:layout_below="@+id/btntuvunglop2"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/duongvien_goctron"
+        android:text="LỚP 3" />
+
+    <Button
+        android:id="@+id/btntuvunglop4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/btntuvunglop3"
+        android:layout_alignRight="@+id/btntuvunglop3"
+        android:layout_below="@+id/btntuvunglop3"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/duongvien_goctron"
+        android:text="LỚP 4" />
+
+    <Button
+        android:id="@+id/btntuvunglop5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/btntuvunglop4"
+        android:layout_alignStart="@+id/btntuvunglop4"
+        android:layout_below="@+id/btntuvunglop4"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/duongvien_goctron"
+        android:text="LỚP 5" />
+</RelativeLayout>

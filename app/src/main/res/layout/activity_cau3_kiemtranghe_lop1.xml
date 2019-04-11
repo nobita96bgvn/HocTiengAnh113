@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nenkiemtra"
+    tools:context="com.nvh.hoannguyen.hoctienganh.Lop1.Cau1KiemtrangheLop1Activity">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="20sp"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        android:text="Nghe và chọn đáp án phù hợp với câu hỏi sau:"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="20sp"
+        android:textColor="#fd0318"
+        android:textStyle="bold"
+        android:text="What is the second boy name?"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imbtnnghe3"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/nutnghekiemtra"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignEnd="@+id/textView16">
+
+        <RadioButton
+            android:id="@+id/anghe3"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="Tony" />
+
+        <RadioButton
+            android:id="@+id/bnghe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="Peter" />
+
+        <RadioButton
+            android:id="@+id/cnghe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="Gogo" />
+
+        <RadioButton
+            android:id="@+id/dnghe3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="John" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnnextnghe3lop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:textSize="20sp"
+        android:textColor="#030303"
+        android:textStyle="bold"
+        android:text="Next" />
+</RelativeLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <GridView
+      android:layout_height="400dp"
+      android:layout_width="match_parent"
+      android:numColumns="3"
+      android:id="@+id/gvLsQuestion"/>
+
+
+  <LinearLayout
+      android:layout_height="match_parent"
+      android:layout_width="match_parent"
+      android:orientation="horizontal">
+
+  <Button
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:id="@+id/btnCancel"
+      android:text="Đóng"
+      android:layout_weight="1"/>
+
+  <Button
+      android:layout_height="wrap_content"
+      android:layout_width="wrap_content"
+      android:id="@+id/btnFinish"
+      android:text="Kết thúc"
+      android:layout_weight="1"/>
+
+</LinearLayout>
+
+</LinearLayout>

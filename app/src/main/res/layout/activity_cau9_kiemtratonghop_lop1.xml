@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nentonghop"
+    tools:context="com.nvh.hoannguyen.hoctienganh.Lop1.Cau5De1KiemtravietLop1Activity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textSize="20sp"
+        android:textColor="#08a9f4"
+        android:text="Viết câu trả lời cho câu hỏi sau: 'How old are you?'"
+        android:layout_below="@+id/timecau9de2lop1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/timecau9de2lop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="35sp"
+        android:textColor="#fa0404"
+        android:text=""
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/edtcau9de2lop1"
+        android:layout_alignEnd="@+id/edtcau9de2lop1" />
+
+    <EditText
+        android:id="@+id/edtcau9de2lop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnnextcau9de2lop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="Next"
+        android:layout_marginTop="157dp"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

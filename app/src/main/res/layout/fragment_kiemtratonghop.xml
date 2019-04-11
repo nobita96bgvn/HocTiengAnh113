@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_th"
+    tools:context="com.nvh.hoannguyen.hoctienganh.hoctap.KiemtratonghopFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="#f50808"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:text="CHỌN LỚP HỌC" />
+
+    <ImageButton
+
+        android:id="@+id/imbtnthlop1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:text=""
+        android:background="@drawable/nutlop1"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:drawableBottom="@drawable/duongvien_goctron"
+        android:drawableEnd="@drawable/duongvien_goctron"
+        />
+
+    <ImageButton
+        android:id="@+id/imbtnthlop2"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/imbtnthlop1"
+        android:layout_alignRight="@+id/imbtnthlop1"
+        android:layout_below="@+id/imbtnthlop1"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/nutlop2"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imbtnthlop3"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imbtnthlop2"
+        android:layout_alignStart="@+id/imbtnthlop2"
+        android:layout_below="@+id/imbtnthlop2"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/nutlop3"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imbtnthlop4"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/imbtnthlop3"
+        android:layout_alignRight="@+id/imbtnthlop3"
+        android:layout_below="@+id/imbtnthlop3"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/nutlop4"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imbtnthlop5"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imbtnthlop4"
+        android:layout_alignStart="@+id/imbtnthlop4"
+        android:layout_below="@+id/imbtnthlop4"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:background="@drawable/nutlop5"
+        android:text="" />
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+    </group>
+
+    <item android:title="Học tập">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/tuvung"
+                    android:icon="@drawable/ic_chu_v"
+                    
+                    android:title="Học từ vựng" />
+                <item
+                    android:id="@+id/video"
+                    android:icon="@drawable/ic_chu_o"
+                    android:title="Học qua video" />
+                <item
+                    android:id="@+id/luyennghe"
+                    android:icon="@drawable/ic_chu_l"
+                    android:title="Luyện nghe" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Kiểm tra">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/tracnghiem"
+                    android:icon="@drawable/ic_chu_m"
+                    android:title="Kiểm tra trắc nghiệm" />
+                <item
+                    android:id="@+id/viet"
+                    android:icon="@drawable/ic_chu_w"
+                    android:title="Kiểm tra viết" />
+                <item
+                    android:id="@+id/nghe"
+                    android:icon="@drawable/ic_chu_t"
+                    android:title="Kiểm tra nghe" />
+                <item
+                    android:id="@+id/kiemtratonghop"
+                    android:icon="@drawable/ic_chu_s"
+                    android:title="Kiểm tra tổng hợp" />
+
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Tra cứu từ điển">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/anhviet"
+                    android:icon="@drawable/ic_chu_h"
+                    android:title="Từ điển " />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>

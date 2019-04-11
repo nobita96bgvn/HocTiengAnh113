@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nenkiemtra"
+    tools:context="com.nvh.hoannguyen.hoctienganh.Lop1.Cau1KiemtrangheLop1Activity">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="20sp"
+        android:textColor="#050505"
+        android:textStyle="bold"
+        android:text="Nghe và chọn đáp án phù hợp với câu hỏi sau:"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:textSize="20sp"
+        android:textColor="#fd0318"
+        android:textStyle="bold"
+        android:text="Câu hỏi đầu tiên của đoạn hội thoại là gì?"
+        android:layout_below="@+id/textView16"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/imbtnnghe2"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/nutnghekiemtra"
+        android:layout_below="@+id/textView18"
+        android:layout_centerHorizontal="true" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/imbtnnghe2"
+        android:layout_alignLeft="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:id="@+id/radioGroup">
+
+        <RadioButton
+            android:id="@+id/anghe2"
+            android:layout_width="243dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="What's your name?" />
+
+        <RadioButton
+            android:id="@+id/bnghe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="How are you?" />
+
+        <RadioButton
+            android:id="@+id/cnghe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="How old are you?" />
+
+        <RadioButton
+            android:id="@+id/dnghe2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:textColor="#030303"
+            android:textStyle="bold"
+            android:text="Where are you from?" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnnextnghe2lop1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:textSize="20sp"
+        android:textColor="#030303"
+        android:textStyle="bold"
+        android:text="Next" />
+</RelativeLayout>

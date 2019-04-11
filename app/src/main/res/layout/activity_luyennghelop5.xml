@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/nentonghop"
+    tools:context="com.nvh.hoannguyen.hoctienganh.Lop1.Luyennghelop1Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Tên bài hát"
+        android:textAlignment="center"
+        android:textColor="#555bff"
+        android:textSize="24sp"
+        android:id="@+id/title" />
+    <ImageButton
+        android:src="@drawable/bnex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="19dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:id="@+id/next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/pre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/next"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        app:srcCompat="@drawable/bpre" />
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        app:srcCompat="@drawable/btplay"
+        android:layout_alignTop="@+id/next"
+        android:layout_toLeftOf="@+id/next"
+        android:layout_toStartOf="@+id/next" />
+
+    <ImageButton
+        android:id="@+id/stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pre"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_toEndOf="@+id/pre"
+        android:layout_toRightOf="@+id/pre"
+        app:srcCompat="@drawable/bstop" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pre"
+        android:layout_alignLeft="@+id/pre"
+        android:layout_alignStart="@+id/pre"
+        android:layout_marginBottom="19dp"
+        android:layout_alignRight="@+id/next"
+        android:layout_alignEnd="@+id/next" />
+
+    <TextView
+        android:id="@+id/bdau"
+        android:textSize="20sp"
+        android:textColor="#5655ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/seekBar"
+        android:layout_alignLeft="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar"
+        android:layout_marginBottom="16dp"
+        android:text="00 :00" />
+
+    <TextView
+        android:id="@+id/kthuc"
+        android:textSize="20sp"
+        android:textColor="#5655ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/bdau"
+        android:layout_alignBottom="@+id/bdau"
+        android:layout_alignEnd="@+id/seekBar"
+        android:layout_alignRight="@+id/seekBar"
+        android:text="00 : 00" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/dia"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

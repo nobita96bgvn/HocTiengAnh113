@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.nvh.hoannguyen.hoctienganh.Lop1.Lop1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:id="@+id/kiemtra"
+        android:layout_width="176dp"
+        android:layout_height="70dp"
+        android:text="Kiểm tra"
+        android:textSize="20sp"/>
+</FrameLayout>
